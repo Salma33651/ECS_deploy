@@ -6,7 +6,7 @@ import pandas as pd
 app = FastAPI()
 
 # تحميل النموذج
-model = joblib.load("RF_model_compressed.joblib")
+model = joblib.load("./RF_model_compressed.joblib")
 
 label_names = {
     1: 'Walking',
